@@ -1,0 +1,52 @@
+body {
+	background: #2A2A2A;
+}
+
+#estilo1 {
+	width: 100%;
+}
+
+#estilo2 {
+	background: #FFBF00;
+	width: 510px;
+	height: auto;
+	margin: auto;
+	display: block;
+	border-radius: 5px;
+}
+
+#Lista1 {
+	font-family: "Consolas";
+}
+
+#uno {
+	color: #2A2A2A;
+	font-family: "Consolas";
+	font-size: 18px;
+	text-align: justify;
+}
+
+#boton1 {
+	font-family: "Consolas";
+	border-radius: 5px;	
+}
+
+#tabla1 {
+	font-family: "Consolas";
+	font-size: 15px;	
+}
+
+#Logo {
+	width: 400px;
+	height: 100px;
+	margin: auto;
+	display: block;
+}
+
+#StarLord{
+	width: 190px;
+	height: 200px;
+	margin: auto;
+	display: block;
+	border-radius: 3px;
+}

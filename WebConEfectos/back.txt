@@ -1,0 +1,57 @@
+<html>
+	<!--Lo del head no puede ver el usuario-->
+	<head>
+		<title>Titulo</title>
+		<link rel="shortcut icon" type="image/x-icon" href="trueno.ico">
+	</head>
+
+	<body>
+		<!--h1 se utiliza para headers-->
+		<h1>CareLibro</h1>
+		<p>
+			<b>Dragon Ball Super</b> (???????? Doragon Boru Supa?) es una serie de anime producida por <strong>Akira Toriyama</strong> y <i>Toei Animation</i>, que comenzó a transmitirse el 5 de julio de 2015 y finalizó el 25 de marzo de 2018. <br>Es una medicuela del manga de Dragon Ball y la primera serie de televisión, que ofrece una nueva historia después de dieciocho años.
+		</p>
+
+		<img src="black.gif" alt="Goku Black" title="Black Goku" width="450" height="200">
+		
+		<br>
+		<hr>
+		
+		<!--a enlaces-->
+		<!--Absoluta-->
+		<a target="_blank" href="https://www.google.com.pe/">Ir a Google</a>
+		<!--Relativa-->
+		<a target="_blank" href="StarLord.gif">Ir al Gif</a>
+
+		<!--linea imaginaria-->
+		<hr>
+
+		<h2>Subtitulo del Articulo</h2>
+		<p>
+			<cite>Renzo Gonzales</cite>
+			<blockquote>Es una medicuela del manga de Dragon Ball y la primera serie de televisión, que ofrece una nueva historia después de dieciocho años.</blockquote>
+		</p>
+
+		<!--Creando Listas-->
+		<!--Lista Normal-->
+		<ul>
+			<!--Contiene el item-->
+			<li> <a href="#">Item 1</a></li>
+			<li>Item 2</li>
+				<ul>
+					<li>Hola</li>
+					<li>Renzo</li>
+				</ul>
+			<li>Item 3</li>
+		</ul>
+
+		<!--Lista Ordenada-->
+		<ol>
+			<!--Contiene el item-->
+			<li> <a href="#">Item 1</a></li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+		</ol>
+	</body>
+
+<html>

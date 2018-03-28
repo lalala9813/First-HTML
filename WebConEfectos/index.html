@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src = "http://code.jquery.com/jquery-3.2.1.min.js"> </script>
+	<title>CareLibro</title>
+	<link rel="shortcut icon" type="image/x-icon" href="Imagenes/trueno.ico">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+	<head>
+		<div id="estilo1">
+			<img id="Logo" src="Imagenes/carelibro.png" alt="Logo" title="Logo Red Social">
+		</div>
+	</head>
+
+	<div id="Lista1" align="center">
+		<ul>
+			<li>
+				<a style="color: #FE2E64;" target="blank" href="https://www.google.com.pe/">
+					Ir a Google
+				</a>
+			</li>
+			<li>
+				<a style="color: #FE2E64;" target="blank" href="https://www.youtube.com/">
+					Ir a Youtube
+				</a>
+			</li>
+		</ul>		
+	</div>
+
+	<div id="estilo2">
+		<p id="uno">
+			<b>Bienvenidos a CareLibro una red social libre e independiente por la voluntad general de los pueblos y por la justicia de su causa que Dios defiende para alumnos y todo público.</b>
+		</p>
+	</div>
+
+	<img id="StarLord" src="Imagenes/StarLord.gif" alt="StarLord gif" title="GIF Star Lord">
+
+	<br>
+
+	<div align="center">
+		<button id="boton1">Aprietame!</button>
+	</div>
+	
+	<br>
+
+	<div id="tabla1" align="center">
+		<table>
+		  <tr>
+		    <th style="background-color:Orange;">Nombre</th>
+		    <th style="background-color:Orange;">Edad</th> 
+		    <th style="background-color:Orange;">Carrera</th>
+		  </tr>
+		  <tr align="center">
+		    <td style="background-color:Violet;">Juliana Medina</td>
+		    <td style="background-color:Violet;">19</td>
+		    <td style="background-color:Violet;">Administración</td>
+		  </tr>
+		  
+		  <tr align="center">
+		    <td style="background-color:Violet;">Renzo Gonzales</td>
+		    <td style="background-color:Violet;">18</td>
+		    <td style="background-color:Violet;">Ciencia de la Computación</td>
+		  </tr>
+		   
+		  <tr align="center">
+		    <td style="background-color:Violet;">Joaquín Navarrete</td>
+		    <td style="background-color:Violet;">21</td>
+		    <td style="background-color:Violet;">Derecho</td>
+		  </tr>
+		  
+		  <tr align="center">
+		    <td style="background-color:Violet;">María Estremadoyro</td>
+		    <td style="background-color:Violet;">22</td>
+		    <td style="background-color:Violet;">Ing. Industrial</td>
+		  </tr>
+		   
+		</table>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#StarLord").hide().fadeIn(2000);
+		});
+	</script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#tabla1").hide();
+			$("button").click(function(){
+				$("#tabla1").fadeIn();
+			});
+		});
+	</script>
+
+</body>
+</html>
+
+
+		
+		
